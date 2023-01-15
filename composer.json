@@ -1,0 +1,21 @@
+{
+    "name": "axeldolislager/coinmarketcapapi",
+    "description": "Laravel package for interacting with CoinMarketCap API",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Axeldolislager\\Coinmarketcapapi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Axel D'Olislager",
+            "homepage": "https://axeldolislager.net"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "guzzlehttp/guzzle": "^7.5.0"
+    }
+}
