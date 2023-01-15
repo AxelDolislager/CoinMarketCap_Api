@@ -17,5 +17,15 @@
     "require": {
         "php": "^8.0",
         "guzzlehttp/guzzle": "^7.5.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Axeldolislager\\Coinmarketcapapi\\Providers\\CoinMarketCapApiServiceProvider"
+            ],
+            "aliases": {
+                "CoinMarketCapApi": "Axeldolislager\\Coinmarketcapapi\\Facades\\CoinMarketCapApi"
+            }
+        }
     }
 }
