@@ -3,12 +3,12 @@ Laravel package for interacting with CoinMarketCap API.
 Support for laravel ^8.0.
 
 
-##Installation
-###Requirements
+## Installation
+### Requirements
 - PHP ^8.0
 - Composer
 
-###Installation steps
+### Installation steps
 To get the latest version simply run the following command in your project in a commandline interface.
 ``
 composer require axeldolislager/coinmarketcapapi
@@ -32,7 +32,7 @@ You should also add the Facade in the `config/app.php` file in the `aliases` key
 ]
 ``
 
-##Configuration
+## Configuration
 You can publish the configuration file using this command:
 ``
 php artisan vendor:publish --provider="AxelDolislager\CoinMarketCapApi\Providers\CoinMarketCapApiServiceProvider"
