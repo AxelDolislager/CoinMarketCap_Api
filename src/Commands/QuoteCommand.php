@@ -12,8 +12,7 @@ class QuoteCommand extends Command{
     public function handle(){
         $api = new CoinMarketCapApi();
         $quote = $api->quotes(['id' => $this->argument('coins')]);
-        //check array!
 
-        $this->info();
+        $this->info(json_encode($quote));
     }
 }
